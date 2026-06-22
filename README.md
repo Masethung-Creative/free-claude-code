@@ -65,7 +65,12 @@ curl -fsSL "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/i
 Windows PowerShell:
 
 ```powershell
-irm "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1?raw=1" | iex
+irm "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1?raw=1" | iex 
+```
+
+Some people got error "UV Tool is not install " Use Below
+```powershell
+irm https://astral.sh/uv/install.ps1 | iex
 ```
 
 Review the installers at [scripts/install.sh](https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.sh) and [scripts/install.ps1](https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1). Re-run these commands to update to the latest version.
